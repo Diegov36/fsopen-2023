@@ -1,0 +1,25 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpZWdvdjM2IiwiaWQiOiI2NTM4MzcyOGIzNmFjMzU0YjA0ZTk2YzQiLCJpYXQiOjE2OTgxODk4OTQsImV4cCI6MTY5ODE5MzQ5NH0.Ev_VRd1Kt6GypgdexFygW9-KuYtPDHKzsZCGMSlHMKI  
+
+{
+    "author": "diegov366",
+    "title": "Test blog Middleware 23",
+    "url": "page.com.q",
+    "likes": 500    
+}
+
+
+###
+
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "username": "diegov36",
+    "password": "1234"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/65385f00069d1bc76febba87
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpZWdvdjM2IiwiaWQiOiI2NTM4MzcyOGIzNmFjMzU0YjA0ZTk2YzQiLCJpYXQiOjE2OTgxOTA1OTUsImV4cCI6MTY5ODE5NDE5NX0.KqaSpJqciLrEaKbbW1hOPVwVJkGhezZ62Xwt_yGRQk8
